@@ -2,8 +2,10 @@ import React from "react";
 import "./Button.css";
 
 const STYLES = ["btn--primary", "btn--outline"];
+
 const SIZES = ["btn--medium", "btn--large", "btn--mobile", "btn--wide"];
-const COLORS = ["primary", "blue", "red", "green"];
+
+const COLOR = ["primary", "blue", "red", "green"];
 
 export const Button = ({
   children,
@@ -13,16 +15,13 @@ export const Button = ({
   buttonSize,
   buttonColor,
 }) => {
-  //default button style is the first style in the array
   const checkButtonStyle = STYLES.includes(buttonStyle)
     ? buttonStyle
     : STYLES[0];
 
   const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
 
-  const checkButtonColor = COLORS.includes(buttonColor)
-    ? buttonColor
-    : COLORS[0];
+  const checkButtonColor = COLOR.includes(buttonColor) ? buttonColor : null;
 
   return (
     <button

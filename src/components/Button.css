@@ -38,9 +38,9 @@
 .btn--mobile {
   text-align: center;
   border-radius: 4px;
-  width: 80%;
+  /* width: 80%; */
   text-decoration: none;
-  font-size: 24px;
+  font-size: 1.5rem;
   background-color: transparent;
   color: #fff;
   padding: 14px 20px;
@@ -65,6 +65,16 @@
   color: #fff;
   background-color: #f00946;
   transition: all 0.2s ease-out;
+}
+
+.btn-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 8px 16px;
+  height: 100%;
+  width: 100%;
 }
 
 .blue {
@@ -92,7 +102,7 @@
 }
 
 .green {
-  background-color: #25ce4a;
+  background: #25ce4a;
   color: #fff;
   border: none;
 }
