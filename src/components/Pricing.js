@@ -1,4 +1,5 @@
 import React from "react";
+import "./Pricing.css";
 import { Link } from "react-router-dom";
 import { Button } from "./Button";
 import { FaFire } from "react-icons/fa";
@@ -8,7 +9,7 @@ import { IconContext } from "react-icons/lib";
 
 function Pricing() {
   return (
-    <IconContext.Provider value={{ color: "#000", size: 64 }}>
+    <IconContext.Provider value={{ color: "#fff", size: 64 }}>
       <div>
         <div className="pricing__section">
           <div className="pricing__wrapper">
@@ -45,7 +46,7 @@ function Pricing() {
                     <li>3.5% Cash Back</li>
                     <li>$100,000 Limit</li>
                   </ul>
-                  <Button buttonSize="btn--wide" buttonColor="primary">
+                  <Button buttonSize="btn--wide" buttonColor="blue">
                     Choose Plan
                   </Button>
                 </div>
