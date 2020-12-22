@@ -2,16 +2,15 @@ import React from "react";
 import HeroSection from "../../HeroSection";
 import Pricing from "../../Pricing";
 import Footer from "../Footer/Footer";
-import { homeObjOne } from "./Data";
+import { homeObjTwo } from "./Data";
 
-function Services() {
+function Products() {
   return (
     <>
-      <Pricing />
-      <HeroSection {...homeObjOne} />
+      <HeroSection {...homeObjTwo} />
       <Footer />
     </>
   );
 }
 
-export default Services;
+export default Products;
