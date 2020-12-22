@@ -137,6 +137,10 @@ footer-email-form h2 {
   margin-bottom: 16px;
 }
 
+.company-logo {
+  margin-right: 0.5rem;
+}
+
 @media screen and (max-width: 820px) {
   .footer-links {
     padding-top: 2rem;

@@ -75,7 +75,7 @@ function Footer() {
         <div className="social-media-wrap">
           <div className="footer-logo">
             <Link to="/" className="social-logo">
-              <MdFingerprint className="fab fa-typo3" /> REACT TUTORIAL
+              <MdFingerprint className="company-logo" /> REACT TUTORIAL
             </Link>
           </div>
           <small className="website-rights">REACT TUTORIAL © 2020</small>
