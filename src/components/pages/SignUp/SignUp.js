@@ -1,14 +1,12 @@
 import React from "react";
 import HeroSection from "../../HeroSection";
-import Pricing from "../../Pricing";
 import Footer from "../Footer/Footer";
-import { homeObjThree } from "./Data";
+import { homeObjOne } from "./Data";
 
 function SignUp() {
   return (
     <>
-      <Pricing />
-      <HeroSection {...homeObjThree} />
+      <HeroSection {...homeObjOne} />
       <Footer />
     </>
   );

@@ -7,8 +7,8 @@ import { homeObjOne } from "./Data";
 function Services() {
   return (
     <>
-      <Pricing />
       <HeroSection {...homeObjOne} />
+      <Pricing />
       <Footer />
     </>
   );
