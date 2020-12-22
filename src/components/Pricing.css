@@ -16,7 +16,6 @@
 }
 
 .pricing__container-card:nth-child(2) {
-  /* transform: scale(1.05); */
   background: #242424;
   margin: 0 24px;
 }
@@ -24,7 +23,6 @@
 .pricing__container-card:hover {
   transform: scale(1.06);
   transition: all 0.3s ease-out;
-  color: #1c2237;
 }
 
 .pricing__container {
@@ -43,6 +41,10 @@
 .pricing__heading {
   color: #1c2237;
   margin-bottom: 24px;
+
+  font-size: 48px;
+  line-height: 1.1;
+  font-weight: 600;
 }
 
 .pricing__container-cardInfo {

@@ -75,10 +75,10 @@ function Footer() {
         <div className="social-media-wrap">
           <div className="footer-logo">
             <Link to="/" className="social-logo">
-              <MdFingerprint className="fab fa-typo3" /> LAVISH
+              <MdFingerprint className="fab fa-typo3" /> REACT TUTORIAL
             </Link>
           </div>
-          <small className="website-rights">LAVISH © 2020</small>
+          <small className="website-rights">REACT TUTORIAL © 2020</small>
           <div className="social-icons">
             <Link
               to="/"
